@@ -7,29 +7,27 @@
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <h2>FORMULÁRIO SUPERAÇAIAJIN</h2>
-    <hr>
+    <h1>FORMULÁRIO SUPERAÇAIAJIN</h1>
     
-    <form id="dadospessoais">
-        
+    <form id="dadospessoais">  
         <fieldset>
-            <legend><form id="Dados Pessoais:">Dados Pessoais</form></legend>
-        <label for="name">Nome:</label>
+        <legend><form id="Dados Pessoais:">Dados Pessoais</form></legend>
+        <label for="name">Nome:</label><br>
         <input type="text" name="nome">
         <br><br>
-        <label for="number">Idade:</label>
+        <label for="number">Idade:</label><br>
         <input type="number" name="idade">
         <br><br>
-        <label for="tel">Telefone:</label>
+        <label for="tel">Telefone:</label><br>
         <input type="number" name="telefone">
         <br><br>
-        <label for="endereco">Endereço:</label>
+        <label for="endereco">Endereço:</label><br>
         <input type="endereco" name="endereco">
 
         <br><br>
 
-         <label for="country">Planeta de Origem:</label>
-            <select name="country" id="country">
+         <label for="planetas">Planeta de Origem:</label>
+            <select name="planetas" id="planetas">
                 <option>Selecione uma opção</option>
                 <option>Planeta Terra</option>
                 <option>Planeta Namek</option>
@@ -37,6 +35,66 @@
                 <option>Outros</option>
             </select><br><br>
         </fieldset>
+    </form>
+    <form id="dadospessoais2">
+        <fieldset>
+            <legend><form id="Dados Extras:">Dados Extras:</form></legend>
+
+            <label for="raças">Raça do Universo 7 preferida:</label>
+            <select name="raças" id="raças">
+                <option>Selecione uma opção</option>
+                <option>Terráquio</option>
+                <option>Sayajin</option>
+                <option>NameKuseijin</option>
+                <option>Androide</option>
+                <option>Outros</option>
+            </select><br><br>
+
+             <label for="job">Trabalho:</label>
+            <input type="radio" name="trabalho" id="autonomo" value="autonomo">
+            <label for="autonomo">Autonomo</label>
+            <input type="radio" name="trabalho" id="empregado" value="empregado">
+            <label for="empregado">Empregado CLT</label>
+            <input type="radio" name="trabalho" id="empresario" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="trabalho" id="goku" value="goku">
+            <label for="goku">Tipo Goku</label>
+            <br><br>
+        </fieldset>
+    </form>
+    <form id="dadospessoais3">
+        <fieldset>
+            <legend><form id="Açai perfeito:">Seu açaí é perfeito de que jeito?</form></legend>
+            <input type="checkbox" name="tipo1" value="puro">Puro
+            <input type="checkbox" name="tipo2" value="banana">Com Banana
+            <input type="checkbox" name="tipo3" value="morango">Com Morango
+            <input type="checkbox" name="tipo4" value="granola">Com Granola
+            <input type="checkbox" name="tipo5" value="terra">Tem gosto de Terra
+        </fieldset>
+    </form>
+    <form id="dadospessoais4">
+        <fieldset>
+             <legend><form id="tamanho preferido:">Qual o tamanho preferido?</form></legend>
+            <input type="radio" name="tamanho" id="ml1" value="ml1">
+            <label for="ml1">500ml</label>
+            <input type="radio" name="tamanho" id="ml2" value="ml2">
+            <label for="ml2">300ml</label>
+            <input type="radio" name="tamanho" id="ml3" value="ml3">
+            <label for="ml3">100ml</label>
+            <input type="radio" name="tamanho" id="outro" value="outro">
+            <label for="outro">Casquinha</label>
+            <input type="radio" name="tamanho" id="outro2" value="outro2">
+            <label for="outro2">Qual parte de gosto de terra você não entendeu?</label>
+        </fieldset>
+    </form>
+    <br>
+    <form id="dadospessoais5">
+        <fieldset>
+            <label for="observacao">Observações:</label><br>
+            <textarea name="observacao" id="observacao" cols="195" rows="8"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

@@ -1,0 +1,67 @@
+body{
+    background-image: url(../imagens/goku.png);
+    background-size: 30%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: indigo;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: goldenrod;
+    border: gold;
+    border-style: dotted;
+    background-color: darkmagenta;
+    border-radius: 10px;
+}
+
+#dadospessoais fieldset{
+    border: solid 5px gold;
+}
+
+#dadospessoais{
+    color: white;
+}
+
+#dadospessoais2 fieldset{
+    border: solid 5px gold;
+}
+
+#dadospessoais2{
+    color: white;
+}
+
+#dadospessoais3 fieldset{
+    border: solid 5px gold;
+}
+
+#dadospessoais3{
+    color: white;
+}
+
+#dadospessoais4 fieldset{
+    border: solid 5px gold;
+}
+
+#dadospessoais4{
+    color: white;
+}
+
+#dadospessoais5 fieldset{
+    border: solid 5px gold;
+    resize: none;
+}
+
+#dadospessoais5{
+    color: white;
+}
+
+button{
+    background-color: darkmagenta;
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
