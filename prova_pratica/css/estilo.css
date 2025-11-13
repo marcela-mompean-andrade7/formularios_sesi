@@ -65,3 +65,6 @@ button{
     height: 40px;
     color: white;
 }
+#observacao{
+    resize: none;
+}
